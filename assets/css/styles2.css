@@ -226,6 +226,10 @@ header ul li a{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
   }
+  .ico{
+    font-size: 45px;
+    color: #000;
+  }
 }
 @media (max-width: 400px){
   .content .textBox h2{
