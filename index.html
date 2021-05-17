@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/styles2.css">
+  <title>starbucks</title>
+</head>
+<body>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <a href="#"><img src="assets/images/logo.png" class="logo" alt=""></a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">What's New</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textBox">
+        <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit cum, quaerat nostrum aspernatur, recusandae harum nulla, autem dolores libero pariatur eum tempore. Assumenda mollitia, soluta deleniti sit hic dicta autem.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="imgBox">
+        <img src="assets/images/img1.png" class="starbucks" alt="">
+      </div>
+    </div> 
+    <ul class="thumb">
+      <li><img src="assets//images/thumb1.png" alt="" onclick="imgSlider('assets/images/img1.png');changeCircleColor('#017143')"></li>
+      <li><img src="assets//images/thumb2.png" alt="" onclick="imgSlider('assets/images/img2.png');changeCircleColor('#eb7495')"></li>
+      <li><img src="assets//images/thumb3.png" alt="" onclick="imgSlider('assets/images/img3.png');changeCircleColor('#d752b1')"></li>
+    </ul>
+    <ul class="sci">
+      <li><a href="#"><img src="assets/images/facebook.png" alt=""></a></li>
+      <li><a href="#"><img src="assets/images/instagram.png" alt=""></a></li>
+      <li><a href="#"><img src="assets/images/twitter.png" alt=""></a></li>
+    </ul>
+    <!-- <div class="sci">
+        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+    </div>  -->
+  </section>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
